@@ -46,10 +46,14 @@ name: 'Terraform'
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+      - task1
   pull_request:
     branches:
+      - main
       - task1
+
 
 
 permissions:
